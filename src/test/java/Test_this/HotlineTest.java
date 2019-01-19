@@ -11,12 +11,12 @@ import java.io.IOException;
 
 public class HotlineTest extends TestBase {
     private MainPage mainPage;
-    private RegistrattionPage registrationPage ;  //  это мы класс делаем переменной?
+    private RegistrattionPage registrationPage ;
 
     @Before
     public void precondition() throws IOException {
         mainPage = new MainPage();
-        registrationPage = new RegistrattionPage(); // обявленную переменную инстанциируем. вызываем конструктор. а конструктор возвращает элемент данного класса.
+        registrationPage = new RegistrattionPage(); 
         }
 
     @Test
